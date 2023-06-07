@@ -17,6 +17,6 @@ jobs:
         with:
           merge_method: merge
           #  Time zone to use. Default is UTC.
-          time_zone: "UTC"
+          time_zone: "America/New_York"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
